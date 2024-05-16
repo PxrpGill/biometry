@@ -1,0 +1,24 @@
+.biometry-spot__header h4 {
+    margin-bottom: 10px;
+}
+
+.biometry-spot__header input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #23a6d5;
+    color: #000000;
+    box-shadow: 0px 0px 4px black;
+    transition: .3s;
+}
+
+.biometry-spot__header input::placeholder {
+    color: #000000;
+}
+
+.biometry-spot__header input:hover {
+    transition: .3s;
+    transform: scale(1.05);
+    background-color: #00bbff;
+}
+
